@@ -7,7 +7,7 @@ description: ProDoc 文档格式规范 —— 基于 Markdown 的文档组织约
 
 ProDoc 是一种基于 Markdown 的文档组织约定，定义了如何将一组 Markdown 文件组织成可供 ProDoc 渲染器识别和渲染的文档结构。
 
-> 当前模型为**文档图**（DocGraph）：目录即图，文件即框，连线表达导航。旧的「文档树」模型（`order` 排序、`index.md` 目录节点）已废弃，仅遗留 `edit` 命令使用。
+> 当前模型为**文档图**（DocGraph）：目录即图，文件即框，连线表达导航。旧的「文档树」模型（`order` 排序、`index.md` 目录节点）及其 `edit` 命令已移除。
 
 ## 一、文件格式
 
